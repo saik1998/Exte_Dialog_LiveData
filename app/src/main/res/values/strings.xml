@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Exte_Dialog_LiveData</string>
+
+    <string name="emp_name">Empname</string>
+    <string name="emp_mail">EmpMail</string>
+
+    <string name="empname">Empname</string>
+    <string name="empmail">EmpMail</string>
+
+    <string name="submit">Submit</string>
+    <string name="save">Save</string>
+
+
+</resources>
