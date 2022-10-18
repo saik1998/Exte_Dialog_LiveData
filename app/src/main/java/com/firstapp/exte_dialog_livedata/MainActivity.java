@@ -28,6 +28,7 @@ public class MainActivity extends AppCompatActivity {
     RecyclerView recyclerView;
     MyAdapter myAdapter;
     MyModel myModel;
+    MyFragmentDialog myFragmentDialog;
 
     ArrayList<MyModel> datamodelList = new ArrayList<>();
 
@@ -49,6 +50,8 @@ public class MainActivity extends AppCompatActivity {
             public void onChanged(ArrayList<MyModel> myModels) {
                 myAdapter=new MyAdapter(getApplicationContext(),myModels);
                 recyclerView.setAdapter(myAdapter);
+//                myFragmentDialog.saveData();
+
             }
         });
 

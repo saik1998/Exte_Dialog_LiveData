@@ -96,7 +96,7 @@ public class MyFragmentDialog extends DialogFragment {
     }
 
     @SuppressLint("NewApi")
-    private void saveData() {
+    public void saveData() {
         SharedPreferences sharedPreferences = getContext().getSharedPreferences("shared preferences", Context.MODE_PRIVATE);
 
         // creating a variable for editor to
